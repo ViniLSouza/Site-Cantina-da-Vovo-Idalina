@@ -1,6 +1,7 @@
 :root {
-    --Fonte-site: 'Quicksand';
-    --Fonte-frase: 'Dancing Script';
+    --Fonte-principal: 'Quicksand';
+    --Fonte-título: 'Kanit';
+    --Fonte-parágrafo: 'Dancing Script';
     --black: #000000;
     --grey11: #1c1c1c;
     --grey21: #363636;
@@ -11,4 +12,42 @@
 * {
     margin: 0;
     padding: 0;
+}
+
+body {
+    font-family: var(--Fonte-principal);
+    color: var(--white);
+    background-color: var(--grey21);
+}
+
+/* Header */
+
+header {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 1em 3em;
+    background-color: var(--grey11);
+    align-items: center;
+}
+
+.logo {
+    width: 150px;
+}
+
+.nav {
+    text-align: end;
+}
+
+.lista {
+    display: inline-block;
+    margin-left: 1em;
+}
+
+.lista__nav {
+    color: var(--white);
+    text-decoration: none;
+}
+
+.lista__nav:hover {
+    border-bottom: 1px solid var(--white);
 }
