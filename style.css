@@ -1,0 +1,14 @@
+:root {
+    --Fonte-site: 'Quicksand';
+    --Fonte-frase: 'Dancing Script';
+    --black: #000000;
+    --grey11: #1c1c1c;
+    --grey21: #363636;
+    --grey31: #4f4f4f;
+    --white: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
