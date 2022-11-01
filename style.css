@@ -25,6 +25,12 @@ body {
     padding: 2em 10em;
 }
 
+hr {
+    margin: 0 3em;
+    border: 0;
+    border-top: 1px solid #CCC;
+}
+
 /* Header */
 
 header {
